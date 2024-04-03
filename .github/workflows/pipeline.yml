@@ -50,7 +50,7 @@ jobs:
       run: npx playwright install
     
     - name: Run node server
-      run: npm run start
+      run: npm run start &
     
     - name: Run UI tests
       run: npm run test:ui
